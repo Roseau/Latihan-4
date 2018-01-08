@@ -20,6 +20,10 @@ public class NasabahPerorangan extends Nasabah{
         tabungan = new Tabungan(0.1,BigDecimal.ZERO,"Tabungan Mapan");
     }
 
+    public NasabahPerorangan(){
+        
+    }
+
     @Override
     public String toString(){
         return String.format("nasabah [noIdentitas: %s, status: %s, namaLengkap: %s, saldo tabungan: %s]", super.getNoIdentitas(), super.getActive(), this.getNamaLengkap(), super.getSaldo());
