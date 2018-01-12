@@ -57,6 +57,7 @@ public class MainApplication{
         Set<String> applicant = new HashSet<>();
         applicant.add("Olaf");
         applicant.add("Olaf");
+        System.out.println("Nilai indeks ke 0 adalah : "+applicant.toArray()[0]);
         //contoh menyimpan data dalam map
         Map<Integer, String> gundam = new HashMap<>();
         gundam.put(1, "Flauros");
